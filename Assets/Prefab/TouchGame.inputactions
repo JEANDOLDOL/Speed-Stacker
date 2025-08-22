@@ -1,0 +1,45 @@
+{
+    "name": "TouchGame",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "73ba08af-0d3e-4b29-a959-4b9029a6fb37",
+            "actions": [
+                {
+                    "name": "Tap",
+                    "type": "Button",
+                    "id": "f6c3bdaa-e5ca-4336-9d66-b9a6856c0828",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9c34b3c3-9c3f-41f5-a6b9-80091f69a644",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d2772e2-ca6a-4ca1-877c-3a28ec260c84",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
